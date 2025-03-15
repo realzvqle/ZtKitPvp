@@ -8,6 +8,6 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class EventListener implements Listener {
     @EventHandler(priority = EventPriority.HIGH)
     public void onPlayerJoin(PlayerJoinEvent event){
-        event.getPlayer().sendMessage(ChatColor.AQUA + event.getPlayer().getName() + ".\nType /kit to get a kit!");
+        event.getPlayer().sendMessage(ChatColor.AQUA + "Hi! " + event.getPlayer().getName() + "!\nType /kit to get a kit!");
     }
 }

@@ -52,6 +52,6 @@ public class KitCommand implements CommandExecutor {
 
 
     private void help(CommandSender commandSender){
-        commandSender.sendMessage(ChatColor.MAGIC + "KITS:\n/kit pvp - the basics\n/kit archer - for bow kings\n");
+        commandSender.sendMessage(ChatColor.UNDERLINE + "KITS:\n/kit pvp - the basics\n/kit archer - for bow kings\n");
     }
 }
